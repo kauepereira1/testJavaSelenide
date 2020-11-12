@@ -1,0 +1,178 @@
+[1597791547.503][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 18756
+[1597791547.503][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597791548.664][INFO]: [ee2058c2a574ba79f8b1e4533270d653] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\KauePereira\\IdeaProjects\\ninjaplus\\build\\downloads\\1597791539719_20172_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\KauePereira\\IdeaProjects\\ninjaplus\\build\\downloads\\1597791539719_20172_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597791548.670][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\KauePereira\\IdeaProjects\\ninjaplus\\build\\downloads\\1597791539719_20172_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597791548.680][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597791548.687][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1597791548.687][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\KAUEPE~1\AppData\Local\Temp\scoped_dir20616_715157806" data:,
+[1597791549.550][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597791551.568][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597791553.584][INFO]: [ee2058c2a574ba79f8b1e4533270d653] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "C:\\Users\\KAUEPE~1\\AppData\\Local\\Temp\\scoped_dir20616_715157806"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50289"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "ee2058c2a574ba79f8b1e4533270d653"
+}
+[1597791553.803][INFO]: [ee2058c2a574ba79f8b1e4533270d653] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1597791553.803][INFO]: Waiting for pending navigations...
+[1597791553.806][INFO]: Done waiting for pending navigations. Status: ok
+[1597791553.915][INFO]: Waiting for pending navigations...
+[1597791553.915][INFO]: Done waiting for pending navigations. Status: ok
+[1597791553.916][INFO]: [ee2058c2a574ba79f8b1e4533270d653] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1597791553.925][INFO]: [ee2058c2a574ba79f8b1e4533270d653] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000/login"
+}
+[1597791553.925][INFO]: Waiting for pending navigations...
+[1597791553.926][INFO]: Done waiting for pending navigations. Status: ok
+[1597791554.012][INFO]: Waiting for pending navigations...
+[1597791555.463][INFO]: Done waiting for pending navigations. Status: ok
+[1597791555.464][INFO]: [ee2058c2a574ba79f8b1e4533270d653] RESPONSE Navigate
+[1597791555.467][INFO]: [ee2058c2a574ba79f8b1e4533270d653] COMMAND GetTitle {
+
+}
+[1597791555.467][INFO]: Waiting for pending navigations...
+[1597791555.468][INFO]: Done waiting for pending navigations. Status: ok
+[1597791555.478][INFO]: Waiting for pending navigations...
+[1597791555.479][INFO]: Done waiting for pending navigations. Status: ok
+[1597791555.479][INFO]: [ee2058c2a574ba79f8b1e4533270d653] RESPONSE GetTitle "Ninja+"
+[1597791555.504][INFO]: [ee2058c2a574ba79f8b1e4533270d653] COMMAND Quit {
+
+}
+[1597791555.658][INFO]: [ee2058c2a574ba79f8b1e4533270d653] RESPONSE Quit

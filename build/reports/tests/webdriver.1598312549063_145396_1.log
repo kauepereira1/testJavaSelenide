@@ -1,0 +1,1175 @@
+[1598312549.262][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 25478
+[1598312549.263][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1598312550.114][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\KauePereira\\IdeaProjects\\ninjaplus\\build\\downloads\\1598312547618_145396_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\KauePereira\\IdeaProjects\\ninjaplus\\build\\downloads\\1598312547618_145396_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1598312550.121][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\KauePereira\\IdeaProjects\\ninjaplus\\build\\downloads\\1598312547618_145396_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1598312550.129][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1598312550.133][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1598312550.133][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\KAUEPE~1\AppData\Local\Temp\scoped_dir145484_1718061007" data:,
+[1598312551.228][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1598312553.248][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1598312555.267][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.135",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "C:\\Users\\KAUEPE~1\\AppData\\Local\\Temp\\scoped_dir145484_1718061007"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52874"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "e6033abf9df893ff0c340d0ba984ea61"
+}
+[1598312555.358][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1598312555.358][INFO]: Waiting for pending navigations...
+[1598312555.361][INFO]: Done waiting for pending navigations. Status: ok
+[1598312555.473][INFO]: Waiting for pending navigations...
+[1598312555.474][INFO]: Done waiting for pending navigations. Status: ok
+[1598312555.474][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1598312555.486][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000"
+}
+[1598312555.486][INFO]: Waiting for pending navigations...
+[1598312555.488][INFO]: Done waiting for pending navigations. Status: ok
+[1598312555.555][INFO]: Waiting for pending navigations...
+[1598312557.614][INFO]: Done waiting for pending navigations. Status: ok
+[1598312557.614][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE Navigate
+[1598312557.792][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312557.793][INFO]: Waiting for pending navigations...
+[1598312557.794][INFO]: Done waiting for pending navigations. Status: ok
+[1598312557.805][INFO]: Waiting for pending navigations...
+[1598312557.805][INFO]: Done waiting for pending navigations. Status: ok
+[1598312557.805][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f0e1e563-a4d4-47de-aee1-ae602184c97b"
+}
+[1598312557.868][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f0e1e563-a4d4-47de-aee1-ae602184c97b"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1598312557.868][INFO]: Waiting for pending navigations...
+[1598312557.869][INFO]: Done waiting for pending navigations. Status: ok
+[1598312557.887][INFO]: Waiting for pending navigations...
+[1598312557.890][INFO]: Done waiting for pending navigations. Status: ok
+[1598312557.890][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE ExecuteScript true
+[1598312557.897][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND ClearElement {
+   "id": "f0e1e563-a4d4-47de-aee1-ae602184c97b"
+}
+[1598312557.897][INFO]: Waiting for pending navigations...
+[1598312557.898][INFO]: Done waiting for pending navigations. Status: ok
+[1598312557.929][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1598312557.946][INFO]: Waiting for pending navigations...
+[1598312557.947][INFO]: Done waiting for pending navigations. Status: ok
+[1598312557.947][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE ClearElement
+[1598312557.958][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND TypeElement {
+   "id": "f0e1e563-a4d4-47de-aee1-ae602184c97b",
+   "text": "papito@ninjaplus.com",
+   "value": [ "p", "a", "p", "i", "t", "o", "@", "n", "i", "n", "j", "a", "p", "l", "u", "s", ".", "c", "o", "..." ]
+}
+[1598312557.958][INFO]: Waiting for pending navigations...
+[1598312557.959][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.059][INFO]: Waiting for pending navigations...
+[1598312558.068][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.068][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE TypeElement
+[1598312558.075][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#passId"
+}
+[1598312558.075][INFO]: Waiting for pending navigations...
+[1598312558.077][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.088][INFO]: Waiting for pending navigations...
+[1598312558.089][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.089][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "bd5774ff-8a43-4db1-a456-72c543f55895"
+}
+[1598312558.105][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "bd5774ff-8a43-4db1-a456-72c543f55895"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1598312558.105][INFO]: Waiting for pending navigations...
+[1598312558.106][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.129][INFO]: Waiting for pending navigations...
+[1598312558.131][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.131][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE ExecuteScript true
+[1598312558.138][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND ClearElement {
+   "id": "bd5774ff-8a43-4db1-a456-72c543f55895"
+}
+[1598312558.138][INFO]: Waiting for pending navigations...
+[1598312558.139][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.183][INFO]: Waiting for pending navigations...
+[1598312558.184][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.184][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE ClearElement
+[1598312558.189][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND TypeElement {
+   "id": "bd5774ff-8a43-4db1-a456-72c543f55895",
+   "text": "pwd123",
+   "value": [ "p", "w", "d", "1", "2", "3" ]
+}
+[1598312558.190][INFO]: Waiting for pending navigations...
+[1598312558.192][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.259][INFO]: Waiting for pending navigations...
+[1598312558.266][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.266][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE TypeElement
+[1598312558.275][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Entrar\"]/parent::*"
+}
+[1598312558.275][INFO]: Waiting for pending navigations...
+[1598312558.277][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.329][INFO]: Waiting for pending navigations...
+[1598312558.332][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.332][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "73d142e6-1f2b-49cb-af3e-2d3c46461986"
+}
+[1598312558.364][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "73d142e6-1f2b-49cb-af3e-2d3c46461986"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1598312558.364][INFO]: Waiting for pending navigations...
+[1598312558.365][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.377][INFO]: Waiting for pending navigations...
+[1598312558.378][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.378][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE ExecuteScript true
+[1598312558.384][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND ClickElement {
+   "id": "73d142e6-1f2b-49cb-af3e-2d3c46461986"
+}
+[1598312558.384][INFO]: Waiting for pending navigations...
+[1598312558.385][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.442][INFO]: Waiting for pending navigations...
+[1598312558.449][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.449][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE ClickElement
+[1598312558.457][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".user .info span"
+}
+[1598312558.457][INFO]: Waiting for pending navigations...
+[1598312558.460][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.477][INFO]: Waiting for pending navigations...
+[1598312558.478][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.478][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".user .info span"}
+  (Session info: chrome=84.0.4147.135)
+[1598312558.710][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".user .info span"
+}
+[1598312558.711][INFO]: Waiting for pending navigations...
+[1598312558.712][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.729][INFO]: Waiting for pending navigations...
+[1598312558.731][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.731][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".user .info span"}
+  (Session info: chrome=84.0.4147.135)
+[1598312558.941][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".user .info span"
+}
+[1598312558.941][INFO]: Waiting for pending navigations...
+[1598312558.963][INFO]: Done waiting for pending navigations. Status: ok
+[1598312558.999][INFO]: Waiting for pending navigations...
+[1598312559.012][INFO]: Done waiting for pending navigations. Status: ok
+[1598312559.012][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "86328fa7-f5fb-4d9e-84ae-4c7b4ab654c6"
+}
+[1598312559.019][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND GetElementTagName {
+   "id": "86328fa7-f5fb-4d9e-84ae-4c7b4ab654c6"
+}
+[1598312559.019][INFO]: Waiting for pending navigations...
+[1598312559.021][INFO]: Done waiting for pending navigations. Status: ok
+[1598312559.030][INFO]: Waiting for pending navigations...
+[1598312559.031][INFO]: Done waiting for pending navigations. Status: ok
+[1598312559.031][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE GetElementTagName "span"
+[1598312559.041][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND GetElementText {
+   "id": "86328fa7-f5fb-4d9e-84ae-4c7b4ab654c6"
+}
+[1598312559.041][INFO]: Waiting for pending navigations...
+[1598312559.048][INFO]: Done waiting for pending navigations. Status: ok
+[1598312559.077][INFO]: Waiting for pending navigations...
+[1598312559.078][INFO]: Done waiting for pending navigations. Status: ok
+[1598312559.078][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE GetElementText "Papito"
+[1598312559.101][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND GetTitle {
+
+}
+[1598312559.101][INFO]: Waiting for pending navigations...
+[1598312559.102][INFO]: Done waiting for pending navigations. Status: ok
+[1598312559.109][INFO]: Waiting for pending navigations...
+[1598312559.110][INFO]: Done waiting for pending navigations. Status: ok
+[1598312559.111][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE GetTitle "Ninja+"
+[1598312559.115][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000"
+}
+[1598312559.115][INFO]: Waiting for pending navigations...
+[1598312559.116][INFO]: Done waiting for pending navigations. Status: ok
+[1598312559.170][INFO]: Waiting for pending navigations...
+[1598312559.850][INFO]: Done waiting for pending navigations. Status: ok
+[1598312559.850][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE Navigate
+[1598312559.858][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312559.858][INFO]: Waiting for pending navigations...
+[1598312559.871][INFO]: Done waiting for pending navigations. Status: ok
+[1598312559.883][INFO]: Waiting for pending navigations...
+[1598312559.884][INFO]: Done waiting for pending navigations. Status: ok
+[1598312559.884][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312560.099][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312560.101][INFO]: Waiting for pending navigations...
+[1598312560.126][INFO]: Done waiting for pending navigations. Status: ok
+[1598312560.134][INFO]: Waiting for pending navigations...
+[1598312560.136][INFO]: Done waiting for pending navigations. Status: ok
+[1598312560.136][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312560.346][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312560.346][INFO]: Waiting for pending navigations...
+[1598312560.347][INFO]: Done waiting for pending navigations. Status: ok
+[1598312560.352][INFO]: Waiting for pending navigations...
+[1598312560.353][INFO]: Done waiting for pending navigations. Status: ok
+[1598312560.353][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312560.562][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312560.562][INFO]: Waiting for pending navigations...
+[1598312560.563][INFO]: Done waiting for pending navigations. Status: ok
+[1598312560.570][INFO]: Waiting for pending navigations...
+[1598312560.570][INFO]: Done waiting for pending navigations. Status: ok
+[1598312560.571][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312560.778][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312560.778][INFO]: Waiting for pending navigations...
+[1598312560.779][INFO]: Done waiting for pending navigations. Status: ok
+[1598312560.784][INFO]: Waiting for pending navigations...
+[1598312560.785][INFO]: Done waiting for pending navigations. Status: ok
+[1598312560.785][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312560.992][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312560.992][INFO]: Waiting for pending navigations...
+[1598312560.993][INFO]: Done waiting for pending navigations. Status: ok
+[1598312560.999][INFO]: Waiting for pending navigations...
+[1598312561.000][INFO]: Done waiting for pending navigations. Status: ok
+[1598312561.000][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312561.205][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312561.205][INFO]: Waiting for pending navigations...
+[1598312561.206][INFO]: Done waiting for pending navigations. Status: ok
+[1598312561.211][INFO]: Waiting for pending navigations...
+[1598312561.212][INFO]: Done waiting for pending navigations. Status: ok
+[1598312561.212][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312561.417][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312561.417][INFO]: Waiting for pending navigations...
+[1598312561.418][INFO]: Done waiting for pending navigations. Status: ok
+[1598312561.424][INFO]: Waiting for pending navigations...
+[1598312561.424][INFO]: Done waiting for pending navigations. Status: ok
+[1598312561.424][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312561.630][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312561.630][INFO]: Waiting for pending navigations...
+[1598312561.631][INFO]: Done waiting for pending navigations. Status: ok
+[1598312561.637][INFO]: Waiting for pending navigations...
+[1598312561.638][INFO]: Done waiting for pending navigations. Status: ok
+[1598312561.638][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312561.842][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312561.842][INFO]: Waiting for pending navigations...
+[1598312561.843][INFO]: Done waiting for pending navigations. Status: ok
+[1598312561.849][INFO]: Waiting for pending navigations...
+[1598312561.850][INFO]: Done waiting for pending navigations. Status: ok
+[1598312561.850][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312562.058][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312562.058][INFO]: Waiting for pending navigations...
+[1598312562.059][INFO]: Done waiting for pending navigations. Status: ok
+[1598312562.064][INFO]: Waiting for pending navigations...
+[1598312562.065][INFO]: Done waiting for pending navigations. Status: ok
+[1598312562.065][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312562.273][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312562.273][INFO]: Waiting for pending navigations...
+[1598312562.274][INFO]: Done waiting for pending navigations. Status: ok
+[1598312562.282][INFO]: Waiting for pending navigations...
+[1598312562.283][INFO]: Done waiting for pending navigations. Status: ok
+[1598312562.283][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312562.488][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312562.488][INFO]: Waiting for pending navigations...
+[1598312562.489][INFO]: Done waiting for pending navigations. Status: ok
+[1598312562.494][INFO]: Waiting for pending navigations...
+[1598312562.495][INFO]: Done waiting for pending navigations. Status: ok
+[1598312562.495][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312562.701][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312562.701][INFO]: Waiting for pending navigations...
+[1598312562.703][INFO]: Done waiting for pending navigations. Status: ok
+[1598312562.710][INFO]: Waiting for pending navigations...
+[1598312562.711][INFO]: Done waiting for pending navigations. Status: ok
+[1598312562.711][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312562.920][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312562.920][INFO]: Waiting for pending navigations...
+[1598312562.921][INFO]: Done waiting for pending navigations. Status: ok
+[1598312562.927][INFO]: Waiting for pending navigations...
+[1598312562.928][INFO]: Done waiting for pending navigations. Status: ok
+[1598312562.928][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312563.134][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312563.134][INFO]: Waiting for pending navigations...
+[1598312563.135][INFO]: Done waiting for pending navigations. Status: ok
+[1598312563.143][INFO]: Waiting for pending navigations...
+[1598312563.143][INFO]: Done waiting for pending navigations. Status: ok
+[1598312563.143][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312563.349][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312563.349][INFO]: Waiting for pending navigations...
+[1598312563.350][INFO]: Done waiting for pending navigations. Status: ok
+[1598312563.356][INFO]: Waiting for pending navigations...
+[1598312563.357][INFO]: Done waiting for pending navigations. Status: ok
+[1598312563.357][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312563.562][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312563.562][INFO]: Waiting for pending navigations...
+[1598312563.563][INFO]: Done waiting for pending navigations. Status: ok
+[1598312563.569][INFO]: Waiting for pending navigations...
+[1598312563.570][INFO]: Done waiting for pending navigations. Status: ok
+[1598312563.570][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312563.776][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312563.776][INFO]: Waiting for pending navigations...
+[1598312563.777][INFO]: Done waiting for pending navigations. Status: ok
+[1598312563.783][INFO]: Waiting for pending navigations...
+[1598312563.784][INFO]: Done waiting for pending navigations. Status: ok
+[1598312563.784][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312563.996][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1598312563.996][INFO]: Waiting for pending navigations...
+[1598312563.997][INFO]: Done waiting for pending navigations. Status: ok
+[1598312564.141][INFO]: Waiting for pending navigations...
+[1598312564.142][INFO]: Done waiting for pending navigations. Status: ok
+[1598312564.143][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE ExecuteScript "\u003Chtml class=\" \">\u003Chead>\n  \u003Cmeta charset=\"utf-8\">\n  \u003Clink rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/favicon.png\">\n  \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\n  \u003Ctitle>Nin..."
+[1598312564.404][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND Screenshot {
+
+}
+[1598312564.404][INFO]: Waiting for pending navigations...
+[1598312564.405][INFO]: Done waiting for pending navigations. Status: ok
+[1598312564.863][INFO]: Waiting for pending navigations...
+[1598312564.864][INFO]: Done waiting for pending navigations. Status: ok
+[1598312564.864][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpoAAANVCAYAAABoHC2oAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xd4VGXaP/Dvc86ZlkmbdBLSKKFEMHQEBWnS1lVQlLWAYl3LKupvi2t313fXd8u7uquwa4cVXXVtICBF7FKk95KEkgKkk0mmnfP8/kiBkELJTCYJ3891IWHOm..."
+[1598312564.916][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND GetTitle {
+
+}
+[1598312564.916][INFO]: Waiting for pending navigations...
+[1598312564.919][INFO]: Done waiting for pending navigations. Status: ok
+[1598312564.921][INFO]: Waiting for pending navigations...
+[1598312564.922][INFO]: Done waiting for pending navigations. Status: ok
+[1598312564.922][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE GetTitle "Ninja+"
+[1598312564.926][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000"
+}
+[1598312564.926][INFO]: Waiting for pending navigations...
+[1598312564.927][INFO]: Done waiting for pending navigations. Status: ok
+[1598312564.960][INFO]: Waiting for pending navigations...
+[1598312565.248][INFO]: Done waiting for pending navigations. Status: ok
+[1598312565.248][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE Navigate
+[1598312565.257][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312565.257][INFO]: Waiting for pending navigations...
+[1598312565.258][INFO]: Done waiting for pending navigations. Status: ok
+[1598312565.270][INFO]: Waiting for pending navigations...
+[1598312565.271][INFO]: Done waiting for pending navigations. Status: ok
+[1598312565.271][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312565.478][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312565.481][INFO]: Waiting for pending navigations...
+[1598312565.482][INFO]: Done waiting for pending navigations. Status: ok
+[1598312565.499][INFO]: Waiting for pending navigations...
+[1598312565.504][INFO]: Done waiting for pending navigations. Status: ok
+[1598312565.504][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312565.718][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312565.718][INFO]: Waiting for pending navigations...
+[1598312565.720][INFO]: Done waiting for pending navigations. Status: ok
+[1598312565.731][INFO]: Waiting for pending navigations...
+[1598312565.735][INFO]: Done waiting for pending navigations. Status: ok
+[1598312565.735][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312565.943][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312565.944][INFO]: Waiting for pending navigations...
+[1598312565.946][INFO]: Done waiting for pending navigations. Status: ok
+[1598312565.965][INFO]: Waiting for pending navigations...
+[1598312565.970][INFO]: Done waiting for pending navigations. Status: ok
+[1598312565.970][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312566.186][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312566.186][INFO]: Waiting for pending navigations...
+[1598312566.189][INFO]: Done waiting for pending navigations. Status: ok
+[1598312566.232][INFO]: Waiting for pending navigations...
+[1598312566.240][INFO]: Done waiting for pending navigations. Status: ok
+[1598312566.240][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312566.447][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312566.447][INFO]: Waiting for pending navigations...
+[1598312566.448][INFO]: Done waiting for pending navigations. Status: ok
+[1598312566.455][INFO]: Waiting for pending navigations...
+[1598312566.456][INFO]: Done waiting for pending navigations. Status: ok
+[1598312566.456][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312566.662][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312566.662][INFO]: Waiting for pending navigations...
+[1598312566.663][INFO]: Done waiting for pending navigations. Status: ok
+[1598312566.670][INFO]: Waiting for pending navigations...
+[1598312566.670][INFO]: Done waiting for pending navigations. Status: ok
+[1598312566.670][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312566.879][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312566.879][INFO]: Waiting for pending navigations...
+[1598312566.882][INFO]: Done waiting for pending navigations. Status: ok
+[1598312566.903][INFO]: Waiting for pending navigations...
+[1598312566.905][INFO]: Done waiting for pending navigations. Status: ok
+[1598312566.905][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312567.122][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312567.122][INFO]: Waiting for pending navigations...
+[1598312567.125][INFO]: Done waiting for pending navigations. Status: ok
+[1598312567.149][INFO]: Waiting for pending navigations...
+[1598312567.152][INFO]: Done waiting for pending navigations. Status: ok
+[1598312567.152][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312567.363][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312567.364][INFO]: Waiting for pending navigations...
+[1598312567.367][INFO]: Done waiting for pending navigations. Status: ok
+[1598312567.386][INFO]: Waiting for pending navigations...
+[1598312567.388][INFO]: Done waiting for pending navigations. Status: ok
+[1598312567.388][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312567.596][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312567.597][INFO]: Waiting for pending navigations...
+[1598312567.600][INFO]: Done waiting for pending navigations. Status: ok
+[1598312567.611][INFO]: Waiting for pending navigations...
+[1598312567.612][INFO]: Done waiting for pending navigations. Status: ok
+[1598312567.613][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312567.822][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312567.822][INFO]: Waiting for pending navigations...
+[1598312567.824][INFO]: Done waiting for pending navigations. Status: ok
+[1598312567.836][INFO]: Waiting for pending navigations...
+[1598312567.837][INFO]: Done waiting for pending navigations. Status: ok
+[1598312567.837][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312568.044][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312568.044][INFO]: Waiting for pending navigations...
+[1598312568.046][INFO]: Done waiting for pending navigations. Status: ok
+[1598312568.061][INFO]: Waiting for pending navigations...
+[1598312568.062][INFO]: Done waiting for pending navigations. Status: ok
+[1598312568.062][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312568.274][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312568.274][INFO]: Waiting for pending navigations...
+[1598312568.276][INFO]: Done waiting for pending navigations. Status: ok
+[1598312568.300][INFO]: Waiting for pending navigations...
+[1598312568.304][INFO]: Done waiting for pending navigations. Status: ok
+[1598312568.304][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312568.517][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312568.517][INFO]: Waiting for pending navigations...
+[1598312568.519][INFO]: Done waiting for pending navigations. Status: ok
+[1598312568.538][INFO]: Waiting for pending navigations...
+[1598312568.540][INFO]: Done waiting for pending navigations. Status: ok
+[1598312568.540][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312568.752][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312568.752][INFO]: Waiting for pending navigations...
+[1598312568.755][INFO]: Done waiting for pending navigations. Status: ok
+[1598312568.772][INFO]: Waiting for pending navigations...
+[1598312568.774][INFO]: Done waiting for pending navigations. Status: ok
+[1598312568.774][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312568.988][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312568.988][INFO]: Waiting for pending navigations...
+[1598312568.990][INFO]: Done waiting for pending navigations. Status: ok
+[1598312569.009][INFO]: Waiting for pending navigations...
+[1598312569.012][INFO]: Done waiting for pending navigations. Status: ok
+[1598312569.012][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312569.224][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312569.224][INFO]: Waiting for pending navigations...
+[1598312569.227][INFO]: Done waiting for pending navigations. Status: ok
+[1598312569.245][INFO]: Waiting for pending navigations...
+[1598312569.248][INFO]: Done waiting for pending navigations. Status: ok
+[1598312569.248][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312569.466][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1598312569.467][INFO]: Waiting for pending navigations...
+[1598312569.470][INFO]: Done waiting for pending navigations. Status: ok
+[1598312569.661][INFO]: Waiting for pending navigations...
+[1598312569.663][INFO]: Done waiting for pending navigations. Status: ok
+[1598312569.664][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\n  \u003Cmeta charset=\"utf-8\">\n  \u003Clink rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/favicon.png\">\n  \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\n  \u003Ctitle>Ninja+\u003C/title..."
+[1598312569.916][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND Screenshot {
+
+}
+[1598312569.916][INFO]: Waiting for pending navigations...
+[1598312569.917][INFO]: Done waiting for pending navigations. Status: ok
+[1598312570.256][INFO]: Waiting for pending navigations...
+[1598312570.257][INFO]: Done waiting for pending navigations. Status: ok
+[1598312570.257][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpoAAANVCAYAAABoHC2oAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xd4VGXaP/Dvc86ZlkmbdBLSKKFEMHQEBWnS1lVQlLWAYl3LKupvi2t313fXd8u7uquwa4cVXXVtICBF7FKk95KEkgKkk0mmnfP8/kiBkELJTCYJ3891IWHOm..."
+[1598312570.282][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND GetTitle {
+
+}
+[1598312570.282][INFO]: Waiting for pending navigations...
+[1598312570.283][INFO]: Done waiting for pending navigations. Status: ok
+[1598312570.286][INFO]: Waiting for pending navigations...
+[1598312570.288][INFO]: Done waiting for pending navigations. Status: ok
+[1598312570.288][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE GetTitle "Ninja+"
+[1598312570.292][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000"
+}
+[1598312570.292][INFO]: Waiting for pending navigations...
+[1598312570.293][INFO]: Done waiting for pending navigations. Status: ok
+[1598312570.327][INFO]: Waiting for pending navigations...
+[1598312570.621][INFO]: Done waiting for pending navigations. Status: ok
+[1598312570.621][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE Navigate
+[1598312570.625][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312570.625][INFO]: Waiting for pending navigations...
+[1598312570.626][INFO]: Done waiting for pending navigations. Status: ok
+[1598312570.635][INFO]: Waiting for pending navigations...
+[1598312570.636][INFO]: Done waiting for pending navigations. Status: ok
+[1598312570.636][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312570.847][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312570.850][INFO]: Waiting for pending navigations...
+[1598312570.856][INFO]: Done waiting for pending navigations. Status: ok
+[1598312570.874][INFO]: Waiting for pending navigations...
+[1598312570.875][INFO]: Done waiting for pending navigations. Status: ok
+[1598312570.875][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312571.086][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312571.086][INFO]: Waiting for pending navigations...
+[1598312571.088][INFO]: Done waiting for pending navigations. Status: ok
+[1598312571.104][INFO]: Waiting for pending navigations...
+[1598312571.106][INFO]: Done waiting for pending navigations. Status: ok
+[1598312571.106][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312571.318][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312571.318][INFO]: Waiting for pending navigations...
+[1598312571.321][INFO]: Done waiting for pending navigations. Status: ok
+[1598312571.343][INFO]: Waiting for pending navigations...
+[1598312571.348][INFO]: Done waiting for pending navigations. Status: ok
+[1598312571.349][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312571.561][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312571.561][INFO]: Waiting for pending navigations...
+[1598312571.564][INFO]: Done waiting for pending navigations. Status: ok
+[1598312571.581][INFO]: Waiting for pending navigations...
+[1598312571.584][INFO]: Done waiting for pending navigations. Status: ok
+[1598312571.584][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312571.793][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312571.794][INFO]: Waiting for pending navigations...
+[1598312571.798][INFO]: Done waiting for pending navigations. Status: ok
+[1598312571.819][INFO]: Waiting for pending navigations...
+[1598312571.822][INFO]: Done waiting for pending navigations. Status: ok
+[1598312571.822][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312572.036][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312572.036][INFO]: Waiting for pending navigations...
+[1598312572.039][INFO]: Done waiting for pending navigations. Status: ok
+[1598312572.064][INFO]: Waiting for pending navigations...
+[1598312572.067][INFO]: Done waiting for pending navigations. Status: ok
+[1598312572.067][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312572.285][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312572.286][INFO]: Waiting for pending navigations...
+[1598312572.291][INFO]: Done waiting for pending navigations. Status: ok
+[1598312572.324][INFO]: Waiting for pending navigations...
+[1598312572.325][INFO]: Done waiting for pending navigations. Status: ok
+[1598312572.325][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312572.537][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312572.537][INFO]: Waiting for pending navigations...
+[1598312572.540][INFO]: Done waiting for pending navigations. Status: ok
+[1598312572.561][INFO]: Waiting for pending navigations...
+[1598312572.563][INFO]: Done waiting for pending navigations. Status: ok
+[1598312572.563][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312572.772][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312572.772][INFO]: Waiting for pending navigations...
+[1598312572.775][INFO]: Done waiting for pending navigations. Status: ok
+[1598312572.810][INFO]: Waiting for pending navigations...
+[1598312572.814][INFO]: Done waiting for pending navigations. Status: ok
+[1598312572.814][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312573.025][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312573.025][INFO]: Waiting for pending navigations...
+[1598312573.030][INFO]: Done waiting for pending navigations. Status: ok
+[1598312573.052][INFO]: Waiting for pending navigations...
+[1598312573.055][INFO]: Done waiting for pending navigations. Status: ok
+[1598312573.055][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312573.268][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312573.269][INFO]: Waiting for pending navigations...
+[1598312573.271][INFO]: Done waiting for pending navigations. Status: ok
+[1598312573.291][INFO]: Waiting for pending navigations...
+[1598312573.295][INFO]: Done waiting for pending navigations. Status: ok
+[1598312573.296][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312573.505][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312573.505][INFO]: Waiting for pending navigations...
+[1598312573.507][INFO]: Done waiting for pending navigations. Status: ok
+[1598312573.528][INFO]: Waiting for pending navigations...
+[1598312573.531][INFO]: Done waiting for pending navigations. Status: ok
+[1598312573.531][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312573.750][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312573.750][INFO]: Waiting for pending navigations...
+[1598312573.754][INFO]: Done waiting for pending navigations. Status: ok
+[1598312573.787][INFO]: Waiting for pending navigations...
+[1598312573.789][INFO]: Done waiting for pending navigations. Status: ok
+[1598312573.790][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312574.007][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312574.007][INFO]: Waiting for pending navigations...
+[1598312574.011][INFO]: Done waiting for pending navigations. Status: ok
+[1598312574.038][INFO]: Waiting for pending navigations...
+[1598312574.041][INFO]: Done waiting for pending navigations. Status: ok
+[1598312574.041][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312574.255][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312574.255][INFO]: Waiting for pending navigations...
+[1598312574.258][INFO]: Done waiting for pending navigations. Status: ok
+[1598312574.287][INFO]: Waiting for pending navigations...
+[1598312574.290][INFO]: Done waiting for pending navigations. Status: ok
+[1598312574.290][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312574.501][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312574.501][INFO]: Waiting for pending navigations...
+[1598312574.503][INFO]: Done waiting for pending navigations. Status: ok
+[1598312574.510][INFO]: Waiting for pending navigations...
+[1598312574.511][INFO]: Done waiting for pending navigations. Status: ok
+[1598312574.511][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312574.721][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1598312574.721][INFO]: Waiting for pending navigations...
+[1598312574.724][INFO]: Done waiting for pending navigations. Status: ok
+[1598312574.985][INFO]: Waiting for pending navigations...
+[1598312574.987][INFO]: Done waiting for pending navigations. Status: ok
+[1598312574.988][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE ExecuteScript "\u003Chtml class=\" \">\u003Chead>\n  \u003Cmeta charset=\"utf-8\">\n  \u003Clink rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/favicon.png\">\n  \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\n  \u003Ctitle>Nin..."
+[1598312575.328][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND Screenshot {
+
+}
+[1598312575.328][INFO]: Waiting for pending navigations...
+[1598312575.329][INFO]: Done waiting for pending navigations. Status: ok
+[1598312575.746][INFO]: Waiting for pending navigations...
+[1598312575.747][INFO]: Done waiting for pending navigations. Status: ok
+[1598312575.747][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpoAAANVCAYAAABoHC2oAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xl4VOXZBvD7PefMlsk22QlkYwmbYEARBGRHBWoVV9xA0bqhVdSu7tra1tZ+1bYWWneoStWqCCqyiFoXFtn3JQlLFiB7Msls57zfH5MEQhYgmckk4f5dFwJzz..."
+[1598312575.779][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND GetTitle {
+
+}
+[1598312575.779][INFO]: Waiting for pending navigations...
+[1598312575.780][INFO]: Done waiting for pending navigations. Status: ok
+[1598312575.783][INFO]: Waiting for pending navigations...
+[1598312575.784][INFO]: Done waiting for pending navigations. Status: ok
+[1598312575.784][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE GetTitle "Ninja+"
+[1598312575.792][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000"
+}
+[1598312575.792][INFO]: Waiting for pending navigations...
+[1598312575.793][INFO]: Done waiting for pending navigations. Status: ok
+[1598312575.837][INFO]: Waiting for pending navigations...
+[1598312576.140][INFO]: Done waiting for pending navigations. Status: ok
+[1598312576.140][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE Navigate
+[1598312576.146][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312576.146][INFO]: Waiting for pending navigations...
+[1598312576.148][INFO]: Done waiting for pending navigations. Status: ok
+[1598312576.169][INFO]: Waiting for pending navigations...
+[1598312576.178][INFO]: Done waiting for pending navigations. Status: ok
+[1598312576.178][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312576.384][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312576.386][INFO]: Waiting for pending navigations...
+[1598312576.387][INFO]: Done waiting for pending navigations. Status: ok
+[1598312576.397][INFO]: Waiting for pending navigations...
+[1598312576.398][INFO]: Done waiting for pending navigations. Status: ok
+[1598312576.398][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312576.604][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312576.604][INFO]: Waiting for pending navigations...
+[1598312576.606][INFO]: Done waiting for pending navigations. Status: ok
+[1598312576.631][INFO]: Waiting for pending navigations...
+[1598312576.633][INFO]: Done waiting for pending navigations. Status: ok
+[1598312576.633][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312576.850][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312576.850][INFO]: Waiting for pending navigations...
+[1598312576.853][INFO]: Done waiting for pending navigations. Status: ok
+[1598312576.877][INFO]: Waiting for pending navigations...
+[1598312576.879][INFO]: Done waiting for pending navigations. Status: ok
+[1598312576.879][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312577.092][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312577.092][INFO]: Waiting for pending navigations...
+[1598312577.095][INFO]: Done waiting for pending navigations. Status: ok
+[1598312577.175][INFO]: Waiting for pending navigations...
+[1598312577.178][INFO]: Done waiting for pending navigations. Status: ok
+[1598312577.178][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312577.386][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312577.386][INFO]: Waiting for pending navigations...
+[1598312577.386][INFO]: Done waiting for pending navigations. Status: ok
+[1598312577.396][INFO]: Waiting for pending navigations...
+[1598312577.397][INFO]: Done waiting for pending navigations. Status: ok
+[1598312577.397][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312577.604][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312577.604][INFO]: Waiting for pending navigations...
+[1598312577.609][INFO]: Done waiting for pending navigations. Status: ok
+[1598312577.630][INFO]: Waiting for pending navigations...
+[1598312577.633][INFO]: Done waiting for pending navigations. Status: ok
+[1598312577.633][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312577.852][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312577.852][INFO]: Waiting for pending navigations...
+[1598312577.853][INFO]: Done waiting for pending navigations. Status: ok
+[1598312578.034][INFO]: Waiting for pending navigations...
+[1598312578.035][INFO]: Done waiting for pending navigations. Status: ok
+[1598312578.035][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312578.242][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312578.242][INFO]: Waiting for pending navigations...
+[1598312578.244][INFO]: Done waiting for pending navigations. Status: ok
+[1598312578.251][INFO]: Waiting for pending navigations...
+[1598312578.252][INFO]: Done waiting for pending navigations. Status: ok
+[1598312578.252][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312578.456][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312578.456][INFO]: Waiting for pending navigations...
+[1598312578.457][INFO]: Done waiting for pending navigations. Status: ok
+[1598312578.464][INFO]: Waiting for pending navigations...
+[1598312578.464][INFO]: Done waiting for pending navigations. Status: ok
+[1598312578.464][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312578.667][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312578.668][INFO]: Waiting for pending navigations...
+[1598312578.668][INFO]: Done waiting for pending navigations. Status: ok
+[1598312578.684][INFO]: Waiting for pending navigations...
+[1598312578.686][INFO]: Done waiting for pending navigations. Status: ok
+[1598312578.687][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312578.895][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312578.895][INFO]: Waiting for pending navigations...
+[1598312578.896][INFO]: Done waiting for pending navigations. Status: ok
+[1598312578.901][INFO]: Waiting for pending navigations...
+[1598312578.902][INFO]: Done waiting for pending navigations. Status: ok
+[1598312578.902][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312579.109][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312579.109][INFO]: Waiting for pending navigations...
+[1598312579.109][INFO]: Done waiting for pending navigations. Status: ok
+[1598312579.115][INFO]: Waiting for pending navigations...
+[1598312579.116][INFO]: Done waiting for pending navigations. Status: ok
+[1598312579.116][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312579.321][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312579.321][INFO]: Waiting for pending navigations...
+[1598312579.323][INFO]: Done waiting for pending navigations. Status: ok
+[1598312579.329][INFO]: Waiting for pending navigations...
+[1598312579.330][INFO]: Done waiting for pending navigations. Status: ok
+[1598312579.330][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312579.534][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312579.535][INFO]: Waiting for pending navigations...
+[1598312579.536][INFO]: Done waiting for pending navigations. Status: ok
+[1598312579.543][INFO]: Waiting for pending navigations...
+[1598312579.544][INFO]: Done waiting for pending navigations. Status: ok
+[1598312579.544][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312579.751][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312579.751][INFO]: Waiting for pending navigations...
+[1598312579.752][INFO]: Done waiting for pending navigations. Status: ok
+[1598312579.786][INFO]: Waiting for pending navigations...
+[1598312579.786][INFO]: Done waiting for pending navigations. Status: ok
+[1598312579.786][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312579.994][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email"
+}
+[1598312579.994][INFO]: Waiting for pending navigations...
+[1598312579.996][INFO]: Done waiting for pending navigations. Status: ok
+[1598312580.028][INFO]: Waiting for pending navigations...
+[1598312580.032][INFO]: Done waiting for pending navigations. Status: ok
+[1598312580.032][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"input[name=email"}
+  (Session info: chrome=84.0.4147.135)
+[1598312580.245][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1598312580.245][INFO]: Waiting for pending navigations...
+[1598312580.247][INFO]: Done waiting for pending navigations. Status: ok
+[1598312580.541][INFO]: Waiting for pending navigations...
+[1598312580.542][INFO]: Done waiting for pending navigations. Status: ok
+[1598312580.542][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\n  \u003Cmeta charset=\"utf-8\">\n  \u003Clink rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/favicon.png\">\n  \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\n  \u003Ctitle>Ninja+\u003C/title..."
+[1598312580.698][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND Screenshot {
+
+}
+[1598312580.698][INFO]: Waiting for pending navigations...
+[1598312580.699][INFO]: Done waiting for pending navigations. Status: ok
+[1598312581.156][INFO]: Waiting for pending navigations...
+[1598312581.157][INFO]: Done waiting for pending navigations. Status: ok
+[1598312581.157][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpoAAANVCAYAAABoHC2oAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xd4VGXaP/Dvc86ZlkmbdBLSKKFEMHQEBWnS1lVQlLWAYl3LKupvi2t313fXd8u7uquwa4cVXXVtICBF7FKk95KEkgKkk0mmnfP8/kiBkELJTCYJ3891IWHOm..."
+[1598312581.188][INFO]: [e6033abf9df893ff0c340d0ba984ea61] COMMAND Quit {
+
+}
+[1598312581.246][INFO]: [e6033abf9df893ff0c340d0ba984ea61] RESPONSE Quit
